@@ -1,13 +1,12 @@
 import { styled } from "styled-components";
+import Section1 from "./homeSections/section1";
 
 export default function () {
-  return <HomeDiv></HomeDiv>;
+  return (
+    <HomeDiv>
+      <Section1 />
+    </HomeDiv>
+  );
 }
 
-const HomeDiv = styled.div`
-  background: linear-gradient(
-    102.87deg,
-    #fceed5 6.43%,
-    #fceed5 78.33%,
-    #ffe7ba 104.24%
-  );`
+const HomeDiv = styled.div``;
