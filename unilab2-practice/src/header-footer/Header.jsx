@@ -1,11 +1,12 @@
 import { styled } from "styled-components";
 import Logo from "../assets/Frame.svg";
 import burgerMenu from "../assets/Hamburger_MD.svg";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
+  const location = useLocation();
   return (
-    <HeaderDiv>
-      <Rectangle></Rectangle>
+    <HeaderDiv location={location.pathname}>
       <LogoImg src={Logo} />
       <img src={burgerMenu} />
     </HeaderDiv>
@@ -13,31 +14,21 @@ export default function Header() {
 }
 
 const HeaderDiv = styled.header`
-  background: linear-gradient(
-    102.87deg,
-    #fceed5 6.43%,
-    #fceed5 78.33%,
-    #ffe7ba 104.24%
-  );
+  background: ${(props) =>
+    props.location == "/"
+      ? `linear-gradient(
+           102.87deg,
+           #fceed5 6.43%,
+           #fceed5 78.33%,
+           #ffe7ba 104.24%
+         )`
+      : "#fff"};
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   position: relative;
 `;
 
 const LogoImg = styled.img`
   z-index: 1;
-`;
-
-const Rectangle = styled.div`
-  position: absolute;
-  width: 635px;
-  height: 635px;
-  top: -640px;
-  left: -240px;
-  border-radius: 0px 0px 0px 61px;
-  opacity: 0px;
-  transform: rotate(300deg);
-  z-index: 0;
-  background: #f7dba7;
 `;

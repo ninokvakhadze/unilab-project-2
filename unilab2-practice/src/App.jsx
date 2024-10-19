@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./header-footer/Header";
 import Home from "./Home/Home";
+import Footer from "./header-footer/Footer";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/dogs" element={<Home/>}/>
         </Routes>
+        <Footer/>
       </Router>
       <GlobalStyles />
     </>

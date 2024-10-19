@@ -1,0 +1,1082 @@
+[
+    {
+        "id": 1,
+        "name": "Bella",
+        "breed": "Golden Retriever",
+        "age": 3,
+        "SKU": "SKU001",
+        "size": "Large",
+        "color": "Golden",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "New York, NY",
+        "published_date": "2024-10-15",
+        "additional_info": "Friendly and loves to play.",
+        "pictures": {
+            "dog": "./dogs/dog1.png",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1544015017-e8b84d477aa0",
+                "https://images.unsplash.com/photo-1526336020437-40d8e0c1f06c",
+                "https://images.unsplash.com/photo-1537165462164-2652d79a124f",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1521302267355-79c6b5606196"
+            ]
+        },
+        "price": 1200.00
+    },
+    {
+        "id": 2,
+        "name": "Max",
+        "breed": "Bulldog",
+        "age": 5,
+        "SKU": "SKU002",
+        "size": "Medium",
+        "color": "Brindle",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Los Angeles, CA",
+        "published_date": "2024-10-16",
+        "additional_info": "Loyal and protective.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1516979188375-4b36e9887283",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1529532921953-fca7c54b73d7",
+                "https://images.unsplash.com/photo-1546967218-802264048384",
+                "https://images.unsplash.com/photo-1588076656748-0fc9b8a9b113",
+                "https://images.unsplash.com/photo-1570117665049-bf840af5a09f",
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6"
+            ]
+        },
+        "price": 1500.00
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "breed": "Beagle",
+        "age": 2,
+        "SKU": "SKU003",
+        "size": "Medium",
+        "color": "Tri-color",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Chicago, IL",
+        "published_date": "2024-10-17",
+        "additional_info": "Curious and friendly.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1561759387-e073ff7206fa",
+                "https://images.unsplash.com/photo-1578919610913-57fd4447c084",
+                "https://images.unsplash.com/photo-1603608916951-c96a61d68c7c",
+                "https://images.unsplash.com/photo-1603382134468-90d219cc1f91",
+                "https://images.unsplash.com/photo-1603973150011-ef48e9b81ae0"
+            ]
+        },
+        "price": 800.00
+    },
+    {
+        "id": 4,
+        "name": "Lucy",
+        "breed": "Dachshund",
+        "age": 4,
+        "SKU": "SKU004",
+        "size": "Small",
+        "color": "Red",
+        "vaccinated": false,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Houston, TX",
+        "published_date": "2024-10-18",
+        "additional_info": "Playful and energetic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1586220267676-29c5c64f6a9a",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1618874261043-4f775e0c05b2",
+                "https://images.unsplash.com/photo-1612211028004-1e7a5eb5e8e3",
+                "https://images.unsplash.com/photo-1601748219926-b3d0a5b7935c",
+                "https://images.unsplash.com/photo-1612561165364-327233c61424",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460"
+            ]
+        },
+        "price": 950.00
+    },
+    {
+        "id": 5,
+        "name": "Rocky",
+        "breed": "Rottweiler",
+        "age": 6,
+        "SKU": "SKU005",
+        "size": "Large",
+        "color": "Black and Tan",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Phoenix, AZ",
+        "published_date": "2024-10-19",
+        "additional_info": "Strong and confident.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1588702547082-bda5684f3534",
+                "https://images.unsplash.com/photo-1585502541188-68ec9f615e52",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1596390162331-1645c9e38c1c",
+                "https://images.unsplash.com/photo-1618910791629-4cf04722562c"
+            ]
+        },
+        "price": 1300.00
+    },
+    {
+        "id": 6,
+        "name": "Lola",
+        "breed": "Bichon Frise",
+        "age": 2,
+        "SKU": "SKU006",
+        "size": "Small",
+        "color": "White",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Austin, TX",
+        "published_date": "2024-10-20",
+        "additional_info": "Loves to play and is hypoallergenic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1574158622686-67811f008b0b",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1544015017-e8b84d477aa0",
+                "https://images.unsplash.com/photo-1526336020437-40d8e0c1f06c",
+                "https://images.unsplash.com/photo-1537165462164-2652d79a124f",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1521302267355-79c6b5606196"
+            ]
+        },
+        "price": 950.00
+    },
+    {
+        "id": 7,
+        "name": "Finn",
+        "breed": "Pit Bull",
+        "age": 3,
+        "SKU": "SKU007",
+        "size": "Medium",
+        "color": "Brindle",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Baltimore, MD",
+        "published_date": "2024-10-21",
+        "additional_info": "Sweet and loyal companion.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1588702547082-bda5684f3534",
+                "https://images.unsplash.com/photo-1585502541188-68ec9f615e52",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1596390162331-1645c9e38c1c",
+                "https://images.unsplash.com/photo-1618910791629-4cf04722562c"
+            ]
+        },
+        "price": 1100.00
+    },
+    {
+        "id": 8,
+        "name": "Daisy",
+        "breed": "Poodle",
+        "age": 4,
+        "SKU": "SKU008",
+        "size": "Small",
+        "color": "Cream",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "AKC",
+        "microchip": true,
+        "location": "Seattle, WA",
+        "published_date": "2024-10-22",
+        "additional_info": "Intelligent and hypoallergenic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1557532215-d576fe41ec5b",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1567879823406-55f1f2ee8f77",
+                "https://images.unsplash.com/photo-1572610558277-f7c9c65aebbe",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1601452664451-f6580cd0619f",
+                "https://images.unsplash.com/photo-1511881994988-70998d9094cf"
+            ]
+        },
+        "price": 1400.00
+    },
+    {
+        "id": 9,
+        "name": "Buddy",
+        "breed": "Yorkshire Terrier",
+        "age": 1,
+        "SKU": "SKU009",
+        "size": "Small",
+        "color": "Black and Tan",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Miami, FL",
+        "published_date": "2024-10-23",
+        "additional_info": "Playful and affectionate.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1506794778160-8c0c1c3decc4",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+                "https://images.unsplash.com/photo-1550824731-62990b9c9b32",
+                "https://images.unsplash.com/photo-1600782657721-e16b9eb27e8e",
+                "https://images.unsplash.com/photo-1614651285203-29ec7ff6efeb"
+            ]
+        },
+        "price": 950.00
+    },
+    {
+        "id": 10,
+        "name": "Sophie",
+        "breed": "Corgi",
+        "age": 3,
+        "SKU": "SKU010",
+        "size": "Medium",
+        "color": "Tan and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Atlanta, GA",
+        "published_date": "2024-10-24",
+        "additional_info": "Energetic and fun-loving.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1542177748-250ed6595825",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1586205470225-9fd4d47cf19c",
+                "https://images.unsplash.com/photo-1572515840808-2af6e933f7ee",
+                "https://images.unsplash.com/photo-1604271312366-7c80f036cde2",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1602249058621-f5b896c8dbf1"
+            ]
+        },
+        "price": 1000.00
+    },
+    {
+        "id": 11,
+        "name": "Rocky",
+        "breed": "German Shepherd",
+        "age": 4,
+        "SKU": "SKU011",
+        "size": "Large",
+        "color": "Black and Tan",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Denver, CO",
+        "published_date": "2024-10-25",
+        "additional_info": "Protective and loyal.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1593605242807-702e84e59e05",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1542080760-d1d65c0075ae",
+                "https://images.unsplash.com/photo-1516783655472-ff6d7be5e340",
+                "https://images.unsplash.com/photo-1587991460423-bb084e5e5670",
+                "https://images.unsplash.com/photo-1560450903-e450d1e22bb2",
+                "https://images.unsplash.com/photo-1517228222748-2f892e694c03"
+            ]
+        },
+        "price": 1200.00
+    },
+    {
+        "id": 12,
+        "name": "Molly",
+        "breed": "Shih Tzu",
+        "age": 2,
+        "SKU": "SKU012",
+        "size": "Small",
+        "color": "White and Black",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "San Diego, CA",
+        "published_date": "2024-10-26",
+        "additional_info": "Affectionate and cuddly.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1574162853783-bb4a2b0f50e2",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1525167828604-885fdfb05b0c",
+                "https://images.unsplash.com/photo-1560192525-84b55ed3ff3e",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1594251724901-48b4bc6a6c54",
+                "https://images.unsplash.com/photo-1612954808355-206cb0d57e8d"
+            ]
+        },
+        "price": 1100.00
+    },
+    {
+        "id": 13,
+        "name": "Teddy",
+        "breed": "Chihuahua",
+        "age": 1,
+        "SKU": "SKU013",
+        "size": "Small",
+        "color": "Brown",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Las Vegas, NV",
+        "published_date": "2024-10-27",
+        "additional_info": "Loves to cuddle.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1507680826906-20a31e67d3e4",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1612574603223-5a888b2e7710",
+                "https://images.unsplash.com/photo-1601043083155-65bc1e4d6e3e",
+                "https://images.unsplash.com/photo-1582504961404-ff2fc02880e6",
+                "https://images.unsplash.com/photo-1597546390486-69b62bc5a6fc",
+                "https://images.unsplash.com/photo-1601570555068-4454c207f1b6"
+            ]
+        },
+        "price": 750.00
+    },
+    {
+        "id": 14,
+        "name": "Zoe",
+        "breed": "Border Collie",
+        "age": 3,
+        "SKU": "SKU014",
+        "size": "Medium",
+        "color": "Black and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Portland, OR",
+        "published_date": "2024-10-28",
+        "additional_info": "Smart and energetic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1605602785034-1649c4f7c709",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+                "https://images.unsplash.com/photo-1588702547082-bda5684f3534",
+                "https://images.unsplash.com/photo-1585502541188-68ec9f615e52",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1596390162331-1645c9e38c1c"
+            ]
+        },
+        "price": 1150.00
+    },
+    {
+        "id": 15,
+        "name": "Jasper",
+        "breed": "Maltese",
+        "age": 2,
+        "SKU": "SKU015",
+        "size": "Small",
+        "color": "White",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Orlando, FL",
+        "published_date": "2024-10-29",
+        "additional_info": "Charming and playful.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1601758228298-f81c9f66d182",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1575385504927-e547e2a940d3",
+                "https://images.unsplash.com/photo-1612954808355-206cb0d57e8d",
+                "https://images.unsplash.com/photo-1574158622686-67811f008b0b",
+                "https://images.unsplash.com/photo-1560171441-d40597de04af"
+            ]
+        },
+        "price": 900.00
+    },
+    {
+        "id": 16,
+        "name": "Chester",
+        "breed": "Schnauzer",
+        "age": 5,
+        "SKU": "SKU016",
+        "size": "Medium",
+        "color": "Salt and Pepper",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "AKC",
+        "microchip": true,
+        "location": "Detroit, MI",
+        "published_date": "2024-10-30",
+        "additional_info": "Alert and friendly.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1582719421420-27c44ed2c042",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1568986511570-b1dbd9aeb074",
+                "https://images.unsplash.com/photo-1575385504927-e547e2a940d3",
+                "https://images.unsplash.com/photo-1601452664451-f6580cd0619f",
+                "https://images.unsplash.com/photo-1574158622686-67811f008b0b",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94"
+            ]
+        },
+        "price": 1000.00
+    },
+    {
+        "id": 17,
+        "name": "Baxter",
+        "breed": "Australian Shepherd",
+        "age": 3,
+        "SKU": "SKU017",
+        "size": "Medium",
+        "color": "Blue Merle",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "San Jose, CA",
+        "published_date": "2024-10-31",
+        "additional_info": "Active and intelligent.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1590497483256-69f7f38286e1",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1573963978783-84d5fc78e2af",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1597546390486-69b62bc5a6fc",
+                "https://images.unsplash.com/photo-1612954808355-206cb0d57e8d"
+            ]
+        },
+        "price": 1100.00
+    },
+    {
+        "id": 18,
+        "name": "Ginger",
+        "breed": "Cavalier King Charles Spaniel",
+        "age": 4,
+        "SKU": "SKU018",
+        "size": "Small",
+        "color": "Blenheim",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "New Orleans, LA",
+        "published_date": "2024-11-01",
+        "additional_info": "Affectionate and great with kids.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1585427929003-e02214a70c4f",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1576435976709-2e8261c9a1fc",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1603973150011-ef48e9b81ae0",
+                "https://images.unsplash.com/photo-1594251724901-48b4bc6a6c54",
+                "https://images.unsplash.com/photo-1612954808355-206cb0d57e8d"
+            ]
+        },
+        "price": 1050.00
+    },
+    {
+        "id": 19,
+        "name": "Maggie",
+        "breed": "Havanese",
+        "age": 1,
+        "SKU": "SKU019",
+        "size": "Small",
+        "color": "White",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Cleveland, OH",
+        "published_date": "2024-11-02",
+        "additional_info": "Friendly and cheerful.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1506755588-e9f8c3d50315",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1566756551461-f03f518abf2e",
+                "https://images.unsplash.com/photo-1582504961404-ff2fc02880e6",
+                "https://images.unsplash.com/photo-1594251724901-48b4bc6a6c54",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+                "https://images.unsplash.com/photo-1612561165364-327233c61424"
+            ]
+        },
+        "price": 900.00
+    },
+    {
+        "id": 20,
+        "name": "Scout",
+        "breed": "Basset Hound",
+        "age": 5,
+        "SKU": "SKU020",
+        "size": "Medium",
+        "color": "Tan and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Birmingham, AL",
+        "published_date": "2024-11-03",
+        "additional_info": "Laid-back and friendly.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1557532215-d576fe41ec5b",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1588702547082-bda5684f3534",
+                "https://images.unsplash.com/photo-1585502541188-68ec9f615e52",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1596390162331-1645c9e38c1c",
+                "https://images.unsplash.com/photo-1618910791629-4cf04722562c"
+            ]
+        },
+        "price": 850.00
+    },
+    {
+        "id": 21,
+        "name": "Riley",
+        "breed": "Boston Terrier",
+        "age": 2,
+        "SKU": "SKU021",
+        "size": "Small",
+        "color": "Black and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Indianapolis, IN",
+        "published_date": "2024-11-04",
+        "additional_info": "Playful and affectionate.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+                "https://images.unsplash.com/photo-1550824731-62990b9c9b32",
+                "https://images.unsplash.com/photo-1600782657721-e16b9eb27e8e",
+                "https://images.unsplash.com/photo-1614651285203-29ec7ff6efeb"
+            ]
+        },
+        "price": 950.00
+    },
+    {
+        "id": 22,
+        "name": "Nina",
+        "breed": "Shiba Inu",
+        "age": 3,
+        "SKU": "SKU022",
+        "size": "Medium",
+        "color": "Red",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Austin, TX",
+        "published_date": "2024-11-05",
+        "additional_info": "Loyal and spirited.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1518892962852-78f5744a79e0",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1596390162331-1645c9e38c1c"
+            ]
+        },
+        "price": 1150.00
+    },
+    {
+        "id": 23,
+        "name": "Lola",
+        "breed": "Pit Bull",
+        "age": 2,
+        "SKU": "SKU023",
+        "size": "Medium",
+        "color": "Brindle",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Philadelphia, PA",
+        "published_date": "2024-11-06",
+        "additional_info": "Affectionate and loyal.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1515569305367-97c5db52c843",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1600978017832-e04591388254",
+                "https://images.unsplash.com/photo-1576435976709-2e8261c9a1fc",
+                "https://images.unsplash.com/photo-1594251724901-48b4bc6a6c54",
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6"
+            ]
+        },
+        "price": 800.00
+    },
+    {
+        "id": 24,
+        "name": "Ollie",
+        "breed": "Beagle",
+        "age": 5,
+        "SKU": "SKU024",
+        "size": "Medium",
+        "color": "Tri-color",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Boston, MA",
+        "published_date": "2024-11-07",
+        "additional_info": "Friendly and curious.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1593616532223-4f08b0e4ed3d",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1588702547082-bda5684f3534",
+                "https://images.unsplash.com/photo-1618910791629-4cf04722562c"
+            ]
+        },
+        "price": 850.00
+    },
+    {
+        "id": 25,
+        "name": "Finn",
+        "breed": "Pug",
+        "age": 2,
+        "SKU": "SKU025",
+        "size": "Small",
+        "color": "Fawn",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Salt Lake City, UT",
+        "published_date": "2024-11-08",
+        "additional_info": "Playful and friendly.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1557532215-d576fe41ec5b",
+                "https://images.unsplash.com/photo-1618910791629-4cf04722562c"
+            ]
+        },
+        "price": 700.00
+    },
+    {
+        "id": 26,
+        "name": "Roscoe",
+        "breed": "Cocker Spaniel",
+        "age": 4,
+        "SKU": "SKU026",
+        "size": "Medium",
+        "color": "Golden",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "AKC",
+        "microchip": true,
+        "location": "Seattle, WA",
+        "published_date": "2024-11-09",
+        "additional_info": "Friendly and affectionate.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1590843211994-8f7d1b5d57c3",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1564590712843-2e72fc24f6e0",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1576435976709-2e8261c9a1fc"
+            ]
+        },
+        "price": 900.00
+    },
+    {
+        "id": 27,
+        "name": "Sasha",
+        "breed": "Dachshund",
+        "age": "2 years",
+        "SKU": "SKU027",
+        "size": "Small",
+        "color": "Chocolate",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Phoenix, AZ",
+        "published_date": "2024-11-10",
+        "additional_info": "Curious and playful.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1511602252452-bd7f5ee15c16",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1614651285203-29ec7ff6efeb",
+                "https://images.unsplash.com/photo-1576435976709-2e8261c9a1fc",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1555685812-9bcf4d45e9a6"
+            ]
+        },
+        "price": 700.00
+    },
+    {
+        "id": 28,
+        "name": "Beau",
+        "breed": "Boxer",
+        "age": 3,
+        "SKU": "SKU028",
+        "size": "Large",
+        "color": "Fawn",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Dallas, TX",
+        "published_date": "2024-11-11",
+        "additional_info": "Energetic and loyal.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1518926635470-bb7cc580d250",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1601452664451-f6580cd0619f",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5"
+            ]
+        },
+        "price": 1200.00
+    },
+    {
+        "id": 29,
+        "name": "Luna",
+        "breed": "French Bulldog",
+        "age": 1,
+        "SKU": "SKU029",
+        "size": "Small",
+        "color": "Brindle",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "San Francisco, CA",
+        "published_date": "2024-11-12",
+        "additional_info": "Charming and lively.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1529997883335-7d7c5b4c3b0f",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1614651285203-29ec7ff6efeb"
+            ]
+        },
+        "price": 1500.00
+    },
+    {
+        "id": 30,
+        "name": "Milo",
+        "breed": "Boston Terrier",
+        "age": 4,
+        "SKU": "SKU030",
+        "size": "Small",
+        "color": "Black and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Chicago, IL",
+        "published_date": "2024-11-13",
+        "additional_info": "Affectionate and playful.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1506748686214-e9df14d4d1f0",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158"
+            ]
+        },
+        "price": 950.00
+    },
+    {
+        "id": 31,
+        "name": "Bella",
+        "breed": "Shetland Sheepdog",
+        "age": "6 months",
+        "SKU": "SKU031",
+        "size": "Medium",
+        "color": "Sable and White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": false,
+        "location": "Los Angeles, CA",
+        "published_date": "2024-11-14",
+        "additional_info": "Intelligent and energetic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1578513347464-d7c98c8f3ed2",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b"
+            ]
+        },
+        "price": 1100.00
+    },
+    {
+        "id": 32,
+        "name": "Daisy",
+        "breed": "Yorkshire Terrier",
+        "age": 1,
+        "SKU": "SKU032",
+        "size": "Small",
+        "color": "Black and Tan",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Denver, CO",
+        "published_date": "2024-11-15",
+        "additional_info": "Sweet and energetic.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1612954808355-206cb0d57e8d",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460"
+            ]
+        },
+        "price": 1300.00
+    },
+    {
+        "id": 33,
+        "name": "Rocky",
+        "breed": "Rottweiler",
+        "age": 5,
+        "SKU": "SKU033",
+        "size": "Large",
+        "color": "Black and Tan",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Las Vegas, NV",
+        "published_date": "2024-11-16",
+        "additional_info": "Protective and loyal.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1588698371634-97808e4edc72",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460"
+            ]
+        },
+        "price": 1400.00
+    },
+    {
+        "id": 34,
+        "name": "Coco",
+        "breed": "Chihuahua",
+        "age": "1 year",
+        "SKU": "SKU034",
+        "size": "Small",
+        "color": "Cream",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Orlando, FL",
+        "published_date": "2024-11-17",
+        "additional_info": "Lively and alert.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8"
+            ]
+        },
+        "price": 600.00
+    },
+    {
+        "id": 35,
+        "name": "Sophie",
+        "breed": "Golden Retriever",
+        "age": 7,
+        "SKU": "SKU035",
+        "size": "Large",
+        "color": "Golden",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Atlanta, GA",
+        "published_date": "2024-11-18",
+        "additional_info": "Friendly and patient.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1518892962852-78f5744a79e0",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1597846002093-df9d8f8e2eb6",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1587162030265-bde299d73e94"
+            ]
+        },
+        "price": 1300.00
+    },
+    {
+        "id": 36,
+        "name": "Chester",
+        "breed": "Bulldog",
+        "age": 4,
+        "SKU": "SKU036",
+        "size": "Medium",
+        "color": "White",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Miami, FL",
+        "published_date": "2024-11-19",
+        "additional_info": "Calm and gentle.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1506748686214-e9df14d4d1f0",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187"
+            ]
+        },
+        "price": 900.00
+    },
+    {
+        "id": 37,
+        "name": "Riley",
+        "breed": "Maltese",
+        "age": 2,
+        "SKU": "SKU037",
+        "size": "Small",
+        "color": "White",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "Charlotte, NC",
+        "published_date": "2024-11-20",
+        "additional_info": "Playful and loving.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1562049429-11b4e15c8e28",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460"
+            ]
+        },
+        "price": 800.00
+    },
+    {
+        "id": 38,
+        "name": "Toby",
+        "breed": "Great Dane",
+        "age": 6,
+        "SKU": "SKU038",
+        "size": "Giant",
+        "color": "Blue",
+        "vaccinated": true,
+        "dewormed": true,
+        "certification": "None",
+        "microchip": true,
+        "location": "New York, NY",
+        "published_date": "2024-11-21",
+        "additional_info": "Gentle giant.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1587672115075-bb7e7d1ae236",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1595682354605-4db046bfc6c5",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b"
+            ]
+        },
+        "price": 1500.00
+    },
+    {
+        "id": 39,
+        "name": "Zara",
+        "breed": "Cavalier King Charles Spaniel",
+        "age": 3,
+        "SKU": "SKU039",
+        "size": "Medium",
+        "color": "Blenheim",
+        "vaccinated": true,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": true,
+        "location": "Portland, OR",
+        "published_date": "2024-11-22",
+        "additional_info": "Affectionate and gentle.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1602782588744-4abfe84e0c81",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187"
+            ]
+        },
+        "price": 1000.00
+    },
+    {
+        "id": 40,
+        "name": "Gizmo",
+        "breed": "Pomeranian",
+        "age": "5 months",
+        "SKU": "SKU040",
+        "size": "Small",
+        "color": "Orange",
+        "vaccinated": false,
+        "dewormed": false,
+        "certification": "None",
+        "microchip": false,
+        "location": "Baltimore, MD",
+        "published_date": "2024-11-23",
+        "additional_info": "Playful and curious.",
+        "pictures": {
+            "dog": "https://images.unsplash.com/photo-1606112171475-26a42f94ae8f",
+            "happy_customers": [
+                "https://images.unsplash.com/photo-1616957397715-9e7b38a93460",
+                "https://images.unsplash.com/photo-1587750525875-b79f691c8b9b",
+                "https://images.unsplash.com/photo-1575364652726-30f73c9a7ed8",
+                "https://images.unsplash.com/photo-1611418615920-1c5b9081d187",
+                "https://images.unsplash.com/photo-1564600749264-5406a65f2158"
+            ]
+        },
+        "price": 700.00
+    }
+]
